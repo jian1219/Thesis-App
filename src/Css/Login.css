@@ -1,0 +1,27 @@
+.background{
+    background-image: url("../Images//backgound.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+.border{
+    margin: auto;
+    background-color: white;
+    border-radius: 4px;
+    padding: 10px 0;
+    width: 500px;
+    margin-top: 140px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+.input{
+    background-color: rgb(66, 66, 66);
+    padding: 7px 10px;
+    width: 400px;
+    margin-top: 5px;
+    border-radius: 3px;
+    color: white;
+    outline: none;
+}

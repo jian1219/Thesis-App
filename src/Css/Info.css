@@ -1,0 +1,42 @@
+.infoGrid{
+    display: grid;
+    grid-template-columns: 24% 1fr;
+    
+}
+
+.infoPagView{
+    background-color: rgb(70, 70, 70);
+    border-radius: 5px;
+}
+
+.infoPageEdit{
+    margin-left: 20px;
+    background-color: rgb(142, 142, 142);
+}
+
+
+.mobile-container{
+    position: relative;
+    height: 530px;
+    border-radius: 4px;
+}
+
+.mobile-footer{
+    position: absolute;
+    bottom: 1px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(225, 225, 225);
+    width: 100%;
+    padding: 14px 30px;
+
+}
+
+.display-mobile-icon{
+    width: 35px;
+}
+
+.mobile-button:hover{
+    background-color: rgb(98, 98, 98);
+    border-radius: 10px;
+}

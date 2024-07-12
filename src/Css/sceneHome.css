@@ -1,0 +1,96 @@
+.borderB{
+    border-bottom: 4px solid rgb(27, 27, 27);
+    padding-bottom: 4px;
+}
+
+.gridhomeScene{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.buttonHomeScene{
+    background-color: rgb(51, 51, 51);
+    padding: 5px 30px;
+    border-radius: 3px;
+}
+
+.buttonHomeScene:hover{
+    background-color: rgb(42, 38, 38);
+}
+
+.headerbg{
+    background-color: rgb(0, 0, 0);
+    border-radius: 4px;
+    padding: 6px 4px;
+    display: flex;
+    justify-content: center;
+}
+.contentUploadedHomeScene{
+    background-color: rgb(87, 87, 87);
+    height: 450px;
+    margin-top: 10px;
+    border-radius: 4px;
+    overflow-y: scroll;
+}
+.inputHomescene{
+    padding: 3px 5px ;
+    width: 415px;
+    border-radius: 4px;
+    color: black;
+    outline: none;
+    margin-top: 2px;
+
+}
+
+.uploadedDataContent{
+    background-color: rgb(66, 66, 66);
+    padding: 7px;
+    border-radius: 4px;
+}
+
+.deleteButton{
+    background-color: rgb(182, 23, 23);
+    padding: 3px 30px;
+    width: 100%;
+    margin-top: 8px;
+    border-radius: 4px;
+}
+
+
+.applicationLiveContainer{
+    overflow-y: scroll;
+    background-color: rgb(157, 157, 157);
+    height: 466px;
+    position: relative;
+    padding-bottom: 5px;
+    
+}
+.applicationLiveContainer::-webkit-scrollbar{
+    display: none;
+}
+
+
+.liveHomeSceneApp{
+
+}
+
+.livehomeAppHeader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 0;
+    background-color: rgb(76, 76, 76);
+    position: sticky;
+    width: 260px;
+    top: .1px;
+}
+.livehomeAppHeaderP{
+    font-size: 11px;
+    margin-left: 4px;
+    color: white;
+}
+
+.homeAppLiveBorderB{
+    border-bottom: 2px solid rgb(49, 49, 49);
+    padding-bottom: 10px;
+}

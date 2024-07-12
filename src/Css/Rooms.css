@@ -1,0 +1,210 @@
+.room_grid{
+    display: grid;
+    grid-template-columns: 280px 1fr;
+}
+
+.room_left_list{
+    background-color: rgb(90, 89, 89);
+    margin: 1px 20px;
+    border-radius: 2px;
+    height: 590px;
+}
+
+.room_left_but{
+    background-color: rgb(61, 61, 61);
+    margin: 5px 10px;
+    border-radius: 2px;
+    list-style: none;
+    padding: 6px 0px;
+    cursor: pointer;
+}
+
+.room_edit_button{
+    background-color: rgb(11, 18, 150);
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    padding: 3px 0;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: 700;
+}
+.room_edit_button:hover{
+    background-color: rgb(13, 18, 112);
+  
+}
+
+.popOUT_edit{
+    background-color: rgb(92, 92, 92);
+    padding: 5px;
+    border-radius: 5px;
+    width: 1000px;
+    height: 600px;
+    position: relative;
+    overflow-y: scroll;
+    padding-bottom: 20px;
+    overflow-x: hidden;
+}
+
+.popup_back{
+    background-color: rgb(22, 58, 126);
+    padding: 4px 20px;
+    border-radius: 4px;
+}
+
+.popup_back:hover{
+    background-color: rgb(9, 9, 60);
+}
+
+.room_edit_grid{
+    display: grid;
+    grid-template-columns: 170px 1fr;
+    align-items: center;
+}
+
+.room_edit_input{
+    border-radius: 2px;
+    color: black;
+    padding: 2px 20px;
+}
+
+
+.submit-button-div{
+    display: flex;
+    justify-content: end;
+    margin-top: 50px;
+}
+.room_update_button{
+    background-color: rgb(13, 134, 13);
+    padding: 4px 50px;
+    border-radius: 3px;
+    font-weight: 600;
+}
+
+.room_update_button:hover{
+    background-color: rgb(6, 156, 6);
+}
+
+.room-profile-pic {
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+    display: inline-block; /* Make sure the element is displayed correctly */
+    overflow: hidden; /* Hide any overflow if the image is larger */
+    border-radius: 2px;
+}
+
+.room-detail-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.room-right-border{
+    border-right: 3px solid white;
+    padding-right: 0px;
+    border-bottom: 3px solid white;
+}
+
+.schedule-div{
+
+    padding: 3px 5px;
+    margin: 5px 10px;
+    border: 1px solid white;
+    display: flex;
+}
+.schedule-days{
+    padding-left: 5px;
+    width: 120px;
+    border-right: 2px solid white;
+}
+.schedule-content{
+    margin-left: 17px;
+}
+
+.schedule-edit-div{
+    border-top: 3px solid white;
+    margin-top: 20px;
+    padding-top: 10px;
+    align-items: center;
+}
+
+.schedule-edit-row{
+    display: flex;
+    border: 1px solid white;
+    padding: 4px 20px;
+    margin-top: 2px;
+    border-radius: 2px;
+}
+
+.roomSchedule_edit_input{
+    color: black;
+    width: 80%;
+    padding: 3px 10px;
+    border-radius: 4px;
+    outline: none;
+}
+
+.room-add-button{
+    background-color: rgb(1, 85, 15);
+    font-size: 13px;
+    padding: 4px 10px;
+    font-weight: 700;
+    border-radius: 4px;
+    
+}
+
+.room-add-button:hover{
+    background-color: rgb(8, 118, 27);
+}
+
+.border-design-right{
+    border-top: 3px solid white;
+    margin-right: 10px;
+}
+
+.popOUT_AddRoom{
+    background-color: rgb(92, 92, 92);
+    padding: 5px;
+    border-radius: 5px;
+    width: 1000px;
+    height: 600px;
+    position: relative;
+    overflow-y: scroll;
+    padding-bottom: 20px;
+}
+
+.addroomDesign{
+    background-color: black;
+    padding: 4px 10px;
+    border-radius: 4px;
+}
+
+.back-button-update{
+    background-color: rgb(32, 28, 28);
+    padding: 4px 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+.back-button-update:hover{
+    background-color: rgb(54, 48, 48);
+}
+
+.edit-left-right-img{
+    display: grid;
+    grid-template-columns: 1fr 300px;
+}
+
+.image-profile-update{
+    margin-left: 10px;
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 101px;
+    align-items: center;
+}
+
+.file-update{
+    background-color: green;
+    width: 96px;
+}

@@ -1,0 +1,26 @@
+.mapGrid{
+    display: grid;
+    grid-template-columns: 1fr 26%;
+    padding: 0 20px ;
+    border-radius: 5px;
+}
+
+
+.mapNavar{
+    margin-top: 100px;
+    background-color: rgb(65, 65, 65);
+    display: grid;
+    padding: 0 10px;
+    
+}
+.mapButton{
+    background-color: rgb(37, 37, 37);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px 0;
+}
+
+.mapActiveButton{
+    background-color: black;
+}
+

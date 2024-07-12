@@ -1,0 +1,69 @@
+.notiDiv{
+    padding: 15px 4px;
+}
+
+.notibutton{
+    background-color: rgb(44, 41, 41);
+    padding: 4px 15px;
+    border-radius: 5px;
+    
+}
+.notibutton:hover{
+    background-color: rgb(29, 29, 29);
+}
+
+.notiContent{
+    background-color: rgb(93, 93, 93);
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 4px;
+}
+
+.hiddenDiv{
+    margin-top: 4px;
+    border-bottom: 2px solid rgb(36, 36, 36);
+    padding-bottom: 10px;
+}
+
+.submitbuttondiv{
+    
+    display: flex;
+    justify-content: right;
+}
+
+.submitbutton{
+    background-color: rgb(44, 44, 44);
+    padding: 3px 60px;
+    border-radius: 5px;
+    margin-right: 50px;
+}
+
+.submitbutton:hover{
+    background-color: rgb(1, 81, 20);
+}
+
+.border-left{
+    border-left: 4px solid rgb(52, 52, 52);
+    padding-left: 10px;
+}
+
+.border-bot{
+    border-bottom: 2px solid rgb(102, 102, 102);
+}
+
+.border-left-scene{
+    border-left: 3px solid rgb(92, 92, 92);
+    padding-left: 2px;
+    margin-left: 4px;
+}
+
+.notiContent-scene{
+    background-color: rgb(120, 120, 120);
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 4px;
+}
+
+.paddingnoti-scene{
+    padding: 0 5px;
+}

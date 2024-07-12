@@ -1,0 +1,34 @@
+.userContainer{
+    padding: 5px 20px;
+}
+
+.userDiv{
+    display: flex;
+    background-color: rgb(90, 90, 90);
+    color: black;
+    padding: 5px 20px;
+    border-radius: 4px;
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    align-items: center;
+}
+
+.userDeletebutton{
+    background-color: rgb(110, 2, 2);
+    width: 140px;
+    border-radius: 4px;
+    padding: 3px 0;
+    font-weight: 700;
+    color: white;
+}
+
+.userDeletebutton:hover{
+    background-color: rgb(158, 7, 7);
+}
+
+.userIcon{
+    background-color: rgb(208, 208, 208);
+    width: 40px;
+    padding: 4px;
+    border-radius: 20px;
+}
